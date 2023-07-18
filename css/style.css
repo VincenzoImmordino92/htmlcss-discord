@@ -78,22 +78,21 @@ li a{
 
 
 
-/* fine header */
 
 .sfondo{
-height: 600px;
+  height: 600px;
 }
 
 .sfondo img{
-height: 600px;
-width: 1200px;
+  height: 600px;
+  width: 1200px;
 }
 
 .hero{
   height: 500px;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: cover;
 }
 
@@ -102,6 +101,7 @@ width: 1200px;
   align-items: center;
   flex-direction: column;
   width: 600px;
+  max-width: 900px;
   text-align: center;
   color: white;
 }
@@ -125,5 +125,86 @@ width: 1200px;
   font-weight: 600;
 }
 
+/* fine header */
 
+
+/* inizio main */
+
+section{
+  padding: 40px 0;
+}
+
+section .container{
+  height: 400px;
+}
+
+section:last-child .container{
+flex-direction: column;
+justify-content: space-around;
+text-align: center;
+height: auto;
+}
+
+.big-column{
+  width: 60%;
+}
+
+.img-one{
+  background-image: url(../img/item1.svg);
+  background-repeat: no-repeat;
+}
+
+.img-two{
+  background-image: url(../img/item2.svg);
+  background-repeat: no-repeat;
+}
+
+.img-three{
+  background-image: url(../img/item3.svg);
+  background-repeat: no-repeat;
+}
+
+.img-four{
+  background-size: cover;
+background-repeat: no-repeat;
+}
+
+.img-four img{
+  width: 1000px;
+  max-width: 1200px;
+}
+
+.bg-gray{
+  background-color: lightgray;
+  
+}
+.small-column{
+  width: 40%;
+  text-align: left;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.small-column h2{
+  font-size: 2rem;
+  text-align: left;
+
+}
+
+.big-content div{
+  padding: 20px 0;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.text{
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
 
