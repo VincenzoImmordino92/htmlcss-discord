@@ -76,9 +76,6 @@ li a{
   font-weight: 500;
 }
 
-
-
-
 .sfondo{
   height: 600px;
 }
@@ -108,7 +105,7 @@ li a{
 
 .hero .content h1,span{
   margin: 10px 0;
-  padding: 5px 10px
+  padding: 10px 10px
 }
 
 .bottom-white{
@@ -135,7 +132,7 @@ section{
 }
 
 section .container{
-  height: 400px;
+  height: 450px;
 }
 
 section:last-child .container{
@@ -152,27 +149,36 @@ height: auto;
 .img-one{
   background-image: url(../img/item1.svg);
   background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .img-two{
   background-image: url(../img/item2.svg);
   background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .img-three{
   background-image: url(../img/item3.svg);
   background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .img-four{
   background-size: cover;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
-.img-four img{
-  width: 1000px;
-  max-width: 1200px;
-}
+
 
 .bg-gray{
   background-color: lightgray;
@@ -192,7 +198,7 @@ background-repeat: no-repeat;
 }
 
 .big-content div{
-  padding: 20px 0;
+  margin: 15px 0;
 }
 
 .title{
@@ -207,4 +213,108 @@ background-repeat: no-repeat;
   padding: 10px;
   display: inline-block;
 }
+
+.btn-bottom{
+  display: inline-block;
+  background-color:rgb(76, 76, 217);
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+/* fine main */
+
+/* inizio footer */
+
+footer{
+  height: 800px;
+  background-color: black;
+}
+
+footer .foot{
+  flex-direction: column;
+  color: white;
+  padding-top: 100px;
+}
+
+.footer-top{
+  height: 600px; 
+  width: 100%;
+  border-bottom: 1px solid rgba(76, 76, 217, 0.5);
+
+}
+
+.footer-top .social{
+  width: 30%; 
+}
+
+.footer-top .social h2{
+  color:rgb(76, 76, 217);
+}
+
+.footer-top .menu{
+  width: 70%;
+}
+
+.footer-top .menu .col{
+  width: 25%;
+}
+
+.social{
+  flex-direction: column;
+}
+
+.social img{
+  height: 15px;
+  width: 30px;
+  padding-right: 10px;
+}
+
+.social i{
+  padding-left: 5px;
+}
+
+.social-logo a{
+  color: white;
+  font-size: 1.4rem;
+  padding: 0px 10px;
+}
+
+.menu .col{
+  flex-direction: column;
+}
+
+.col h4,a{
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  color:rgb(76, 76, 217);
+  padding-bottom: 5px;
+}
+
+
+.col span{
+  padding: 5px 0px;
+}
+
+.col span a {
+  color: white;
+}
+
+.footer-bottom{
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.sign-in{
+  background-color:rgb(76, 76, 217);
+}
+
+/* fine footer */
+
+
 
